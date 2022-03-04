@@ -33,7 +33,36 @@ div>h3{
 }
 
 /* header */
+header{
+  background-color: #242424;
+  padding: 18px 0;
+  position: relative; /* 모바일,타블렛 버튼을 위한 포지션 */
+}
 
+header>div{
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+header>div>h1>a{
+  font-size:30px;
+  font-weight: bolder;
+  color:white;
+}
+/* nav */
+nav{}
+nav>ul{
+  display: flex;
+  align-items: center;
+  justify-content:flex-end;
+}
+nav>ul>li{
+  margin-left:45px;
+  color: white;
+  text-transform: uppercase;
+}
+nav>p.close{}
 /* box01 */
 
 /* box02 */
