@@ -75,7 +75,68 @@ nav>p.close{}
 
 
 /* box01 */
-#box01{}
+#box01{
+  height:calc(100vh - 70px);
+  position:relative;
+  /* overflow: hidden; */
+}
+#box01>h2{
+  width:676px; height:280px;
+  position: absolute;
+  top:50%; left:50%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  font: 70px/70px 'Raleway',sans-serif;
+  text-align: center;
+  color:white;
+  align-items: center;
+  font-weight: lighter;
+  margin: -140px 0 0 -338px;  /* width,height의 50%를 옮겨줘야 중앙으로 온다. */
+}
+#box01>ul{
+  width:400%; height:100%;
+  display: flex;
+  flex-wrap:wrap;
+}
+#box01>ul>li{
+  width:25%; height:100%; 
+  /*     ↑ 부모요소 기준에서 100%가 되기때문에 1/4인 25%로 해줘야함. */
+  background:url('../images/blue.jpg') no-repeat center top;
+  background-size: 100%;
+  text-indent: -9999px;
+}
+#box01>ul>li.img02{background: url('../images/pink.jpg') no-repeat;}
+#box01>ul>li.img03{background: url('../images/purple.jpg') no-repeat;}
+#box01>ul>li.img04{background: url('../images/green.jpg') no-repeat;}
+#box01 p.prev{
+  position: absolute;
+  left:50px; top:50%;
+  width:30px; height:40px;
+  border: 4px solid orange;
+  /* margin-top: -20px;  -> 정 가운데로 맞추고 싶으면 하기*/
+}
+#box01 p.next{
+  position: absolute;
+  right:50px; top:50%;
+  width:30px; height:40px;
+  border: 3px solid orange;
+    /* margin-top: -20px;  -> 정 가운데로 맞추고 싶으면 하기*/
+}
+
+#box01 p.no{
+  /* background-color: aqua; */
+  position: absolute;
+  bottom: 30px; right:100px;
+}
+#box01 p.no>a{
+  border-radius: 50%;
+  background-color:white;
+  width:20px; height:20px;
+  display: inline-block;
+  margin: 0 10px;
+  text-indent: -9999px; /* 글씨 없애주는 용도 */
+}
 
 /* box02 */
 
