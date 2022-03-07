@@ -139,7 +139,14 @@ nav>p.close{}
 }
 
 /* box02 */
-#box02{}
+#box02>div{
+  width:980px; height:360px;
+  background-color: aqua;
+  margin: 0 auto;
+}
+#box02>div>dl{}
+#box02>div>dl>dt{}
+#box02>div>dl>dd{}
 
 /* box03 */
 
