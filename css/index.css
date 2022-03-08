@@ -4,7 +4,7 @@
 
 
 img{max-width:100%; max-height:100%;}
-body{font:18px/30px Arial,sans-serif}
+body{font:18px/30px 'Raleway',sans-serif;}
 .hide{
   width:0; height:0; 
   font-size: 0; line-height: 0;
@@ -337,7 +337,7 @@ nav>p.close{}
   padding:0 45px;
   box-sizing: border-box;
   color:#717171;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 #box06 form>fieldset{
   background-color: #ffffff;
