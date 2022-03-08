@@ -14,7 +14,7 @@ body{font:18px/30px Arial,sans-serif}
 header>div,article>div{
   width:1320px;
   margin:0 auto;
-  background-color:darkgoldenrod;
+  /* background-color:darkgoldenrod; */
 }
 #box02,#box03,#box04,#box05,#box06{
   padding:85px 0;
@@ -170,7 +170,36 @@ nav>p.close{}
 }
 
 /* box03 */
-#box03{}
+#box03{
+  background-color: #e8e8e8;
+  font-family:'Raleway',sans-serif;
+}
+#box03>div{}
+#box03>div>div{
+  /* background-color: brown;  */
+  width:1100px;
+  margin:0 auto;
+  padding-left:440px;
+  box-sizing:border-box;
+  position:relative;
+}
+#box03>div>div>figure{
+  position:absolute;
+  left:0; top:0;
+}
+#box03>div>div>div>.title{
+  text-transform: uppercase;
+}
+#box03 .button{
+  text-align: right;
+}
+#box03 .button>button{
+  width:196px; height:54px;
+  border-radius: 27px;
+  background-color:#9c9491;
+  border:none;
+  /* box-sizing: border-box; */
+}
 
 /* box04 */
 
