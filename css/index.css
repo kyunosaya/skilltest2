@@ -143,12 +143,32 @@ nav>p.close{}
   width:980px; height:360px;
   background-color: aqua;
   margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-#box02>div>dl{}
-#box02>div>dl>dt{}
-#box02>div>dl>dd{}
+#box02>div>dl{
+  width:268px;
+  /* background-color: ; */
+  text-align:center;
+  padding:140px 0 54px;
+  color:white;
+  font-family: 'Raleway',sans-serif;
+  background:#9c9491 url('../images/header_icon_01.png') no-repeat center 68px;
+}
+#box02>div>dl:nth-child(3){background-image: url('../images/header_icon_02.png');}
+#box02>div>dl:nth-child(4){background-image: url('../images/header_icon_03.png');}
+#box02>div>dl>dt{
+  margin-bottom:40px;
+  font-size:20px;
+}
+#box02>div>dl>dd{
+  width:80%;
+  margin: 0 auto;
+}
 
 /* box03 */
+#box03{}
 
 /* box04 */
 
