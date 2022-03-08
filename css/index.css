@@ -202,6 +202,15 @@ nav>p.close{}
 }
 
 /* box04 */
+#box04{}
+#box04>div{}
+#box04>div>div{}
+#box04>div>div>div{}
+#box04>div>div>div>.title{}
+#box04>div>div>div>.text{}
+#box04>div>div>ul{}
+#box04>div>div>ul>li{}
+#box04>div>div>ul>li>a{}
 
 /* box05 */
 
