@@ -5,13 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index_media.css">
+  <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
   <div id="wrap">
     <!-- header -->
     <header>
       <div>
-        <h1>My Portfolio</h1>
+        <h1><a href="#">My Portfolio</a></h1>
         <!-- nav -->
         <nav>
           <h2 class="hide">메인내비게이션</h2>
@@ -41,17 +44,16 @@
 
     <!-- box01 -->
     <article id="box01">
-      <div>
-        <h2>We Design & Build</h2>
+        <h2>We Design & Build Creative Products</h2>
         <ul>
-          <li>work01</li>
-          <li>work02</li>
-          <li>work03</li>
-          <li>work04</li>
+          <li class="img01">work01</li>
+          <li class="img02">work02</li>
+          <li class="img03">work03</li>
+          <li class="img04">work04</li>
         </ul>
 
-        <p id="prev"></p>
-        <p id="next"></p>
+        <p class="prev"></p>
+        <p class="next"></p>
 
         <p class="no">
           <a href="#">no01</a>
@@ -59,13 +61,12 @@
           <a href="#">no03</a>
           <a href="#">no04</a>
         </p>
-      </div>
     </article>
 
     <!-- box02 -->
     <article id="box02">
       <div>
-        <h3>나의 슬로건</h3>
+        <h3 class="hide">나의 슬로건</h3>
         <dl>
           <dt>My Story</dt>
           <dd>Lorem ipsum dolor sit amet, consectetuer et sit adipiscing justo.</dd>
@@ -175,6 +176,7 @@
       <div>
         <h3>Contact</h3>
         <div>
+          <div>
           <p class="title">Have You Any Project?<br>
             Please Drop a Message</p>
           <p class="text">I’m a developer who has passion for building clean web applications with intuitive functionality.</p>
@@ -184,15 +186,17 @@
           </dl>
           <dl>
             <dt>Phone:</dt>
-            <dd>(02) 0000 0000 0000</dd>
+            <dd><a href="tel:02-0000-0000">(02) 0000 0000 0000</a></dd>
           </dl>
           <dl>
             <dt>Email:</dt>
-            <dd>info@sample.com</dd>
+            <dd><a href="mailto:info@sample.com">info@sample.com</a></dd>
           </dl>
         </div>
         <form method="post" action="#">
-          <ul>
+          <fieldset>
+            <legend class="hide">나에게 메일로</legend>
+            <ul>
             <li>
               <label for="userName">Name</label>
               <input type="text" id="userName" name="Name" required>
@@ -210,9 +214,11 @@
               <!-- <input type="text" id="userMessage" name="Message"> -->
               <textarea name="Message" id="userMessage" cols="30" rows="10" placeholder="내용을 입력해주세요."></textarea>
             </li>
-            <p><input type="submit" value="submit"></p>
-          </ul>
+            </ul>
+           <p><input type="submit" value="submit"></p>
+          </fieldset>
         </form>
+       </div>
       </div>
     </article>
 
