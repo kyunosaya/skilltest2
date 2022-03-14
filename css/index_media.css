@@ -73,6 +73,35 @@
   nav>p.close{
     display: block;
   }
+
+  /* box01 */
+  #box01{
+    height:100vh;
+  }
+  #box01>h2{
+    width:100%;
+    position: absolute;
+    top:50%; left:0;
+    border:none;
+    margin: -140px 0 0 0px;
+    font-size:50px;
+  }
+
+  #box01>ul>li{
+    background-size:auto 100%;
+  }
+  #box01 p.prev{
+    position: absolute;
+    left:50px; top:50%;
+    width:30px; height:40px;
+    border: 4px solid orange;
+    /* margin-top: -20px;  -> 정 가운데로 맞추고 싶으면 하기*/
+  }
+
+  /* box02 */
+
+
+
   /*  */
 }
 
