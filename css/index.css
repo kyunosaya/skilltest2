@@ -75,14 +75,20 @@ nav>ul>li{
 nav>ul>li>a{
   color:white;
 }
-nav>p.close{}
+nav>p.close{
+  display: none;
+  position:absolute;
+  right:20px; top:20px;
+  width:30px; height:30px;
+  background-color: red;
+}
 
 
 /* box01 */
 #box01{
   height:calc(100vh - 70px);
   position:relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 #box01>h2{
   width:676px; height:280px;
